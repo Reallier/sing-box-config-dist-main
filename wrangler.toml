@@ -1,0 +1,11 @@
+name = "sing-box-config-dist"
+main = "src/index.ts"
+compatibility_date = "2024-03-14"
+compatibility_flags = ["nodejs_compat"]
+
+[[r2_buckets]]
+binding = "MY_BUCKET"
+bucket_name = "common"
+
+[observability]
+enabled = true
